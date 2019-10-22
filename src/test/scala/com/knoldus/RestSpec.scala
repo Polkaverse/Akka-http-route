@@ -33,16 +33,16 @@ class RestSpec extends WordSpec with Matchers with ScalatestRouteTest with Mocki
   "The service" should {
 
 
-    "return a user name for GET requests /read" in {
-      when(mockUserImpl.returnMysqlData).thenReturn("Jackson")
+//     "return a user name for GET requests /read" in {
+//       when(mockUserImpl.returnMysqlData).thenReturn("Jackson")
 
 
-      // tests:
-      Get("/read") ~> TestObject.route ~> check {
-        responseAs[String] shouldEqual "Jackson"
-        handled shouldBe true
-      }
-    }
+//       // tests:
+//       Get("/read") ~> TestObject.route ~> check {
+//         responseAs[String] shouldEqual "Jackson"
+//         handled shouldBe true
+//       }
+//     }
 
 
 
