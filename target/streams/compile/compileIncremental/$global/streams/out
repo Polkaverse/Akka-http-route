@@ -1,0 +1,35 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/knoldus/Desktop/akka/Akka-Http-crud/src/main/scala/com/knoldus/RestService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/knoldus/Desktop/akka/Akka-Http-crud/src/main/scala/com/knoldus/RestService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/knoldus/Desktop/akka/Akka-Http-crud/src/main/scala/com/knoldus/RestService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/akka/Akka-Http-crud/src/main/scala/com/knoldus/RestService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /home/knoldus/Desktop/akka/Akka-Http-crud/src/main/scala/com/knoldus/RestServer.scala by /home/knoldus/Desktop/akka/Akka-Http-crud/src/main/scala/com/knoldus/RestService.scala[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/knoldus/Desktop/akka/Akka-Http-crud/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 21ed30d2, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/home/knoldus/jdk-8u221-linux-x64/jdk1.8.0_221/jre/lib/resources.jar:/home/knoldus/jdk-8u221-linux-x64/jdk1.8.0_221/jre/lib/rt.jar:/home/knoldus/jdk-8u221-linux-x64/jdk1.8.0_221/jre/lib/sunrsasign.jar:/home/knoldus/jdk-8u221-linux-x64/jdk1.8.0_221/jre/lib/jsse.jar:/home/knoldus/jdk-8u221-linux-x64/jdk1.8.0_221/jre/lib/jce.jar:/home/knoldus/jdk-8u221-linux-x64/jdk1.8.0_221/jre/lib/charsets.jar:/home/knoldus/jdk-8u221-linux-x64/jdk1.8.0_221/jre/lib/jfr.jar:/home/knoldus/jdk-8u221-linux-x64/jdk1.8.0_221/jre/classes:/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/knoldus/Desktop/akka/Akka-Http-crud/target/scala-2.12/classes:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.1.1.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.1.1.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/jars/akka-parsing_2.12-10.1.1.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.11.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.11.jar:/home/knoldus/.ivy2/cache/com.typesafe/config/bundles/config-1.3.2.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/jars/akka-protobuf_2.12-2.5.11.jar:/home/knoldus/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.2.jar:/home/knoldus/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.2.2.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar:/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.24.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/jars/akka-http-spray-json_2.12-10.0.5.jar:/home/knoldus/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.3.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.12/jars/akka-http-testkit_2.12-10.1.1.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.12/jars/akka-stream-testkit_2.12-2.5.11.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/jars/akka-testkit_2.12-2.5.11.jar[0m
+[0m[[33mwarn[0m] [0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 4.986965826 s[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

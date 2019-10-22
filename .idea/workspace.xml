@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20f5580e-1011-4d3d-85e3-99fea2aef9c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/knoldus/RestServer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/knoldus/RestServer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/knoldus/RestService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/knoldus/RestService.scala" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1SYBEK73Y4s69NgPiYo9wajuuxO" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.sbt" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RestServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.knoldus.RestServer" />
+      <module name="Akka-Http-Crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knoldus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RestServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Akka-Http-Crud" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="akka-http-crud [file:/home/knoldus/Desktop/akka/Akka-Http-crud/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="Akka-Http-Crud-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="3504609511" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="934637055" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../scala course/example" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20f5580e-1011-4d3d-85e3-99fea2aef9c2" name="Default Changelist" comment="" />
+      <created>1571730537330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571730537330</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

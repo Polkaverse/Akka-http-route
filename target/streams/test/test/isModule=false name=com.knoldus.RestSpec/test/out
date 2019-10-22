@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0m[32mRestSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mThe service[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a user name for GET requests /read[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return user added as response for a Post request to /adduser[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a user updated response for a Put request to /updateuser[0m[0m
+[0m[[0minfo[0m] [0m[32m- should delete an existing user for a Delete request to /deleteuser[0m[0m
+[0m[[0minfo[0m] [0m[32m- should leave GET requests to other paths unhandled[0m[0m
