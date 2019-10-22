@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20191022134552"/>
+		date="20191022155828"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-http-spray-json_2.12">
 			<revision name="10.0.5" status="release" pubdate="20170318164010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
@@ -15,7 +15,7 @@
 				<metadata-artifact status="no" details="" size="3084" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/ivy-10.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.0.5/akka-http-spray-json_2.12-10.0.5.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="10.0.5" rev-constraint-default="10.0.5" rev-constraint-dynamic="10.0.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-http-spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3993" time="1110" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/srcs/akka-http-spray-json_2.12-10.0.5-sources.jar">
+					<artifact name="akka-http-spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3993" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/srcs/akka-http-spray-json_2.12-10.0.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.0.5/akka-http-spray-json_2.12-10.0.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -27,7 +27,7 @@
 				<metadata-artifact status="no" details="" size="2538" time="0" location="/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.24.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.24/mysql-connector-java-5.1.24.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="5.1.24" rev-constraint-default="5.1.24" rev-constraint-dynamic="5.1.24" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="769037" time="8195" location="/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.24-sources.jar">
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="769037" time="0" location="/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.24-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.24/mysql-connector-java-5.1.24-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -39,7 +39,7 @@
 				<metadata-artifact status="no" details="" size="3081" time="0" location="/home/knoldus/.ivy2/cache/io.spray/spray-json_2.12/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.3/spray-json_2.12-1.3.3.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="22956" time="929" location="/home/knoldus/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.3-sources.jar">
+					<artifact name="spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22956" time="0" location="/home/knoldus/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.3/spray-json_2.12-1.3.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -51,7 +51,7 @@
 				<metadata-artifact status="no" details="" size="3606" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.1.1/akka-http-testkit_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
 				<artifacts>
-					<artifact name="akka-http-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="19043" time="942" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.12/srcs/akka-http-testkit_2.12-10.1.1-sources.jar">
+					<artifact name="akka-http-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19043" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.12/srcs/akka-http-testkit_2.12-10.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.1.1/akka-http-testkit_2.12-10.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -63,7 +63,7 @@
 				<metadata-artifact status="no" details="" size="3108" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.1/akka-http_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
 				<artifacts>
-					<artifact name="akka-http_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="200470" time="1917" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar">
+					<artifact name="akka-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200470" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.1/akka-http_2.12-10.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -75,7 +75,7 @@
 				<metadata-artifact status="no" details="" size="3735" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.1/akka-http-core_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
 				<artifacts>
-					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="413652" time="3601" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar">
+					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="413652" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.1/akka-http-core_2.12-10.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -87,7 +87,7 @@
 				<metadata-artifact status="no" details="" size="3489" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.12/ivy-2.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.12/2.5.11/akka-stream-testkit_2.12-2.5.11.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.5.11" rev-constraint-default="2.5.11" rev-constraint-dynamic="2.5.11" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11"/>
 				<artifacts>
-					<artifact name="akka-stream-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9668" time="986" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.12/srcs/akka-stream-testkit_2.12-2.5.11-sources.jar">
+					<artifact name="akka-stream-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9668" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.12/srcs/akka-stream-testkit_2.12-2.5.11-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.12/2.5.11/akka-stream-testkit_2.12-2.5.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -99,7 +99,7 @@
 				<metadata-artifact status="no" details="" size="3693" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/ivy-2.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.11/akka-testkit_2.12-2.5.11.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.5.11" rev-constraint-default="2.5.11" rev-constraint-dynamic="2.5.11" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11"/>
 				<artifacts>
-					<artifact name="akka-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="43009" time="1353" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.11-sources.jar">
+					<artifact name="akka-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43009" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.11-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.11/akka-testkit_2.12-2.5.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -111,7 +111,7 @@
 				<metadata-artifact status="no" details="" size="3539" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/ivy-2.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.11/akka-stream_2.12-2.5.11.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.5.11" rev-constraint-default="2.5.11" rev-constraint-dynamic="2.5.11" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11"/>
 				<artifacts>
-					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="523481" time="3223" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.11-sources.jar">
+					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="523481" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.11-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.11/akka-stream_2.12-2.5.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -123,7 +123,7 @@
 				<metadata-artifact status="no" details="" size="2857" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe/ssl-config-core_2.12/ivy-0.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="0.2.2" rev-constraint-default="0.2.2" rev-constraint-dynamic="0.2.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="ssl-config-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="49384" time="2020" location="/home/knoldus/.ivy2/cache/com.typesafe/ssl-config-core_2.12/srcs/ssl-config-core_2.12-0.2.2-sources.jar">
+					<artifact name="ssl-config-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49384" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe/ssl-config-core_2.12/srcs/ssl-config-core_2.12-0.2.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -135,7 +135,7 @@
 				<metadata-artifact status="no" details="" size="2785" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="42274" time="1321" location="/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.4-sources.jar">
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42274" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -147,7 +147,7 @@
 				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/"/>
 				<artifacts>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="988614" time="7756" location="/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar">
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="988614" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -159,7 +159,7 @@
 				<metadata-artifact status="no" details="" size="2397" time="0" location="/home/knoldus/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3997" time="940" location="/home/knoldus/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar">
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3997" time="0" location="/home/knoldus/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -171,7 +171,7 @@
 				<metadata-artifact status="no" details="" size="2810" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/ivy-2.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.11/akka-protobuf_2.12-2.5.11.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.5.11" rev-constraint-default="2.5.11" rev-constraint-dynamic="2.5.11" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11"/>
 				<artifacts>
-					<artifact name="akka-protobuf_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="275262" time="2409" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/srcs/akka-protobuf_2.12-2.5.11-sources.jar">
+					<artifact name="akka-protobuf_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="275262" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/srcs/akka-protobuf_2.12-2.5.11-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.11/akka-protobuf_2.12-2.5.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -183,7 +183,7 @@
 				<metadata-artifact status="no" details="" size="3111" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.1/akka-parsing_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
 				<artifacts>
-					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="63743" time="1119" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.1.1-sources.jar">
+					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63743" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.1/akka-parsing_2.12-10.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -195,7 +195,7 @@
 				<metadata-artifact status="no" details="" size="3102" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.11/akka-actor_2.12-2.5.11.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.5.11" rev-constraint-default="2.5.11" rev-constraint-dynamic="2.5.11" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11"/>
 				<artifacts>
-					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="525185" time="3932" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar">
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="525185" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.11/akka-actor_2.12-2.5.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -207,7 +207,7 @@
 				<metadata-artifact status="no" details="" size="3036" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="63853" time="1295" location="/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/srcs/scala-java8-compat_2.12-0.8.0-sources.jar">
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63853" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/srcs/scala-java8-compat_2.12-0.8.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -219,7 +219,7 @@
 				<metadata-artifact status="no" details="" size="2875" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe/config/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom"/>
 				<caller organisation="default" name="akka-http-crud$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="172766" time="1647" location="/home/knoldus/.ivy2/cache/com.typesafe/config/srcs/config-1.3.2-sources.jar">
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172766" time="0" location="/home/knoldus/.ivy2/cache/com.typesafe/config/srcs/config-1.3.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar"/>
 					</artifact>
 				</artifacts>

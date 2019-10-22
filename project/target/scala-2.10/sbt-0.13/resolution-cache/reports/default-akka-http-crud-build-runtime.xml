@@ -9,93 +9,298 @@
 		extra-sbtVersion="0.13"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20191022135711"/>
+		date="20191022155151"/>
 	<dependencies>
+		<module organisation="com.eed3si9n" name="sbt-assembly">
+			<revision name="0.14.10" status="release" pubdate="20190706104851" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="1">
+				<license name="MIT License" url="https://github.com/sbt/sbt-assembly/blob/master/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="1765" time="7599" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/ivy-0.14.10.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/ivy-0.14.10.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.10/ivys/ivy.xml"/>
+				<caller organisation="default" name="akka-http-crud-build" conf="compile, runtime" rev="0.14.10" rev-constraint-default="0.14.10" rev-constraint-dynamic="0.14.10" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="sbt-assembly" type="jar" ext="jar" status="successful" details="" size="228695" time="10139" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/jars/sbt-assembly-0.14.10.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.10/jars/sbt-assembly.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.pantsbuild" name="jarjar">
+			<revision name="1.7.2" status="release" pubdate="20181029074650" resolver="public" artresolver="public" homepage="https://github.com/pantsbuild/jarjar" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2173" time="1310" location="/home/knoldus/.ivy2/cache/org.pantsbuild/jarjar/ivy-1.7.2.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.pantsbuild/jarjar/ivy-1.7.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2.pom"/>
+				<caller organisation="com.eed3si9n" name="sbt-assembly" conf="compile" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.14.10"/>
+				<artifacts>
+					<artifact name="jarjar" type="jar" ext="jar" status="successful" details="" size="125216" time="1628" location="/home/knoldus/.ivy2/cache/org.pantsbuild/jarjar/jars/jarjar-1.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-plugin-api">
+			<revision name="3.3.9" status="release" pubdate="20151110220938" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2689" time="1639" location="/home/knoldus/.ivy2/cache/org.apache.maven/maven-plugin-api/ivy-3.3.9.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.apache.maven/maven-plugin-api/ivy-3.3.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.pom"/>
+				<caller organisation="org.pantsbuild" name="jarjar" conf="default, compile, runtime, master" rev="3.3.9" rev-constraint-default="3.3.9" rev-constraint-dynamic="3.3.9" callerrev="1.7.2"/>
+				<artifacts>
+					<artifact name="maven-plugin-api" type="jar" ext="jar" status="successful" details="" size="47473" time="1279" location="/home/knoldus/.ivy2/cache/org.apache.maven/maven-plugin-api/jars/maven-plugin-api-3.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.sisu" name="org.eclipse.sisu.plexus">
+			<revision name="0.3.2" status="release" pubdate="20150914051525" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Eclipse Public License, Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="successful" details="" size="4170" time="1290" location="/home/knoldus/.ivy2/cache/org.eclipse.sisu/org.eclipse.sisu.plexus/ivy-0.3.2.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.eclipse.sisu/org.eclipse.sisu.plexus/ivy-0.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2.pom"/>
+				<caller organisation="org.apache.maven" name="maven-plugin-api" conf="compile, runtime" rev="0.3.2" rev-constraint-default="0.3.2" rev-constraint-dynamic="0.3.2" callerrev="3.3.9"/>
+				<artifacts>
+					<artifact name="org.eclipse.sisu.plexus" type="eclipse-plugin" ext="jar" status="successful" details="" size="205421" time="1709" location="/home/knoldus/.ivy2/cache/org.eclipse.sisu/org.eclipse.sisu.plexus/eclipse-plugins/org.eclipse.sisu.plexus-0.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-classworlds">
+			<revision name="2.5.2" status="release" pubdate="20140829223823" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="7305" time="1324" location="/home/knoldus/.ivy2/cache/org.codehaus.plexus/plexus-classworlds/ivy-2.5.2.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.codehaus.plexus/plexus-classworlds/ivy-2.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom"/>
+				<caller organisation="org.eclipse.sisu" name="org.eclipse.sisu.plexus" conf="compile, runtime" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="0.3.2"/>
+				<artifacts>
+					<artifact name="plexus-classworlds" type="bundle" ext="jar" status="successful" details="" size="52684" time="1237" location="/home/knoldus/.ivy2/cache/org.codehaus.plexus/plexus-classworlds/bundles/plexus-classworlds-2.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-component-annotations">
+			<revision name="1.5.5" status="release" pubdate="20101001014459" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="815" time="1275" location="/home/knoldus/.ivy2/cache/org.codehaus.plexus/plexus-component-annotations/ivy-1.5.5.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.codehaus.plexus/plexus-component-annotations/ivy-1.5.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom"/>
+				<caller organisation="org.eclipse.sisu" name="org.eclipse.sisu.plexus" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="0.3.2"/>
+				<artifacts>
+					<artifact name="plexus-component-annotations" type="jar" ext="jar" status="successful" details="" size="4211" time="1596" location="/home/knoldus/.ivy2/cache/org.codehaus.plexus/plexus-component-annotations/jars/plexus-component-annotations-1.5.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.sisu" name="org.eclipse.sisu.inject">
+			<revision name="0.3.2" status="release" pubdate="20150914051108" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Eclipse Public License, Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="successful" details="" size="2625" time="2126" location="/home/knoldus/.ivy2/cache/org.eclipse.sisu/org.eclipse.sisu.inject/ivy-0.3.2.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.eclipse.sisu/org.eclipse.sisu.inject/ivy-0.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2.pom"/>
+				<caller organisation="org.eclipse.sisu" name="org.eclipse.sisu.plexus" conf="compile, runtime" rev="0.3.2" rev-constraint-default="0.3.2" rev-constraint-dynamic="0.3.2" callerrev="0.3.2"/>
+				<artifacts>
+					<artifact name="org.eclipse.sisu.inject" type="eclipse-plugin" ext="jar" status="successful" details="" size="377642" time="5994" location="/home/knoldus/.ivy2/cache/org.eclipse.sisu/org.eclipse.sisu.inject/eclipse-plugins/org.eclipse.sisu.inject-0.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.enterprise" name="cdi-api">
+			<revision name="1.0" status="release" pubdate="20091109041421" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1434" time="1280" location="/home/knoldus/.ivy2/cache/javax.enterprise/cdi-api/ivy-1.0.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/javax.enterprise/cdi-api/ivy-1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom"/>
+				<caller organisation="org.eclipse.sisu" name="org.eclipse.sisu.plexus" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.3.2"/>
+				<artifacts>
+					<artifact name="cdi-api" type="jar" ext="jar" status="successful" details="" size="44908" time="1298" location="/home/knoldus/.ivy2/cache/javax.enterprise/cdi-api/jars/cdi-api-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091014050500" resolver="public" artresolver="public" homepage="http://code.google.com/p/atinject/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="612" time="1392" location="/home/knoldus/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="javax.enterprise" name="cdi-api" conf="compile, runtime" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javax.inject" type="jar" ext="jar" status="successful" details="" size="2497" time="1234" location="/home/knoldus/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.annotation" name="jsr250-api">
+			<revision name="1.0" status="release" pubdate="20070516015559" resolver="public" artresolver="public" homepage="http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="successful" details="" size="1023" time="1282" location="/home/knoldus/.ivy2/cache/javax.annotation/jsr250-api/ivy-1.0.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/javax.annotation/jsr250-api/ivy-1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom"/>
+				<caller organisation="javax.enterprise" name="cdi-api" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsr250-api" type="jar" ext="jar" status="successful" details="" size="5848" time="1220" location="/home/knoldus/.ivy2/cache/javax.annotation/jsr250-api/jars/jsr250-api-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-artifact">
+			<revision name="3.3.9" status="release" pubdate="20151110220925" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2134" time="1943" location="/home/knoldus/.ivy2/cache/org.apache.maven/maven-artifact/ivy-3.3.9.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.apache.maven/maven-artifact/ivy-3.3.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9.pom"/>
+				<caller organisation="org.apache.maven" name="maven-plugin-api" conf="compile, runtime" rev="3.3.9" rev-constraint-default="3.3.9" rev-constraint-dynamic="3.3.9" callerrev="3.3.9"/>
+				<artifacts>
+					<artifact name="maven-artifact" type="jar" ext="jar" status="successful" details="" size="55018" time="1260" location="/home/knoldus/.ivy2/cache/org.apache.maven/maven-artifact/jars/maven-artifact-3.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-model">
+			<revision name="3.3.9" status="release" pubdate="20151110220906" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="4033" time="2917" location="/home/knoldus/.ivy2/cache/org.apache.maven/maven-model/ivy-3.3.9.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.apache.maven/maven-model/ivy-3.3.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9.pom"/>
+				<caller organisation="org.apache.maven" name="maven-plugin-api" conf="compile, runtime" rev="3.3.9" rev-constraint-default="3.3.9" rev-constraint-dynamic="3.3.9" callerrev="3.3.9"/>
+				<artifacts>
+					<artifact name="maven-model" type="jar" ext="jar" status="successful" details="" size="163977" time="1702" location="/home/knoldus/.ivy2/cache/org.apache.maven/maven-model/jars/maven-model-3.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.4" status="release" pubdate="20150403180112" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11673" time="0" location="/home/knoldus/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom"/>
+				<caller organisation="org.apache.maven" name="maven-model" conf="compile, runtime" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="3.3.9"/>
+				<caller organisation="org.apache.maven" name="maven-artifact" conf="compile, runtime" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="3.3.9"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="434678" time="0" location="/home/knoldus/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-utils">
+			<revision name="3.0.22" status="release" pubdate="20150407214026" resolver="public" artresolver="public" homepage="http://plexus.codehaus.org/plexus-utils" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="3831" time="1282" location="/home/knoldus/.ivy2/cache/org.codehaus.plexus/plexus-utils/ivy-3.0.22.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.codehaus.plexus/plexus-utils/ivy-3.0.22.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom"/>
+				<caller organisation="org.apache.maven" name="maven-model" conf="compile, runtime" rev="3.0.22" rev-constraint-default="3.0.22" rev-constraint-dynamic="3.0.22" callerrev="3.3.9"/>
+				<caller organisation="org.eclipse.sisu" name="org.eclipse.sisu.plexus" conf="compile, runtime" rev="3.0.17" rev-constraint-default="3.0.17" rev-constraint-dynamic="3.0.17" callerrev="0.3.2"/>
+				<caller organisation="org.apache.maven" name="maven-artifact" conf="compile, runtime" rev="3.0.22" rev-constraint-default="3.0.22" rev-constraint-dynamic="3.0.22" callerrev="3.3.9"/>
+				<artifacts>
+					<artifact name="plexus-utils" type="jar" ext="jar" status="successful" details="" size="244897" time="2044" location="/home/knoldus/.ivy2/cache/org.codehaus.plexus/plexus-utils/jars/plexus-utils-3.0.22.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.0.17" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.0.22"/>
+				<caller organisation="org.eclipse.sisu" name="org.eclipse.sisu.plexus" conf="compile, runtime" rev="3.0.17" rev-constraint-default="3.0.17" rev-constraint-dynamic="3.0.17" callerrev="0.3.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="7.0" status="release" pubdate="20181027191238" resolver="public" artresolver="public" homepage="http://asm.ow2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD" url="http://asm.ow2.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="3660" time="1420" location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm-commons/ivy-7.0.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm-commons/ivy-7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.pom"/>
+				<caller organisation="org.pantsbuild" name="jarjar" conf="default, compile, runtime, master" rev="7.0" rev-constraint-default="7.0" rev-constraint-dynamic="7.0" callerrev="1.7.2"/>
+				<artifacts>
+					<artifact name="asm-commons" type="jar" ext="jar" status="successful" details="" size="79850" time="1289" location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-analysis">
+			<revision name="7.0" status="release" pubdate="20181027191234" resolver="public" artresolver="public" homepage="http://asm.ow2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD" url="http://asm.ow2.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="3152" time="1513" location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-7.0.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.pom"/>
+				<caller organisation="org.ow2.asm" name="asm-commons" conf="compile, runtime" rev="7.0" rev-constraint-default="7.0" rev-constraint-dynamic="7.0" callerrev="7.0"/>
+				<artifacts>
+					<artifact name="asm-analysis" type="jar" ext="jar" status="successful" details="" size="33317" time="1765" location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="7.0" status="release" pubdate="20181027191245" resolver="public" artresolver="public" homepage="http://asm.ow2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD" url="http://asm.ow2.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="3123" time="2161" location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm-tree/ivy-7.0.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm-tree/ivy-7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.pom"/>
+				<caller organisation="org.ow2.asm" name="asm-commons" conf="compile, runtime" rev="7.0" rev-constraint-default="7.0" rev-constraint-dynamic="7.0" callerrev="7.0"/>
+				<caller organisation="org.ow2.asm" name="asm-analysis" conf="compile, runtime" rev="7.0" rev-constraint-default="7.0" rev-constraint-dynamic="7.0" callerrev="7.0"/>
+				<artifacts>
+					<artifact name="asm-tree" type="jar" ext="jar" status="successful" details="" size="50399" time="1223" location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="7.0" status="release" pubdate="20181027191230" resolver="public" artresolver="public" homepage="http://asm.ow2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD" url="http://asm.ow2.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="2936" time="1440" location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm/ivy-7.0.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm/ivy-7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom"/>
+				<caller organisation="org.ow2.asm" name="asm-commons" conf="compile, runtime" rev="7.0" rev-constraint-default="7.0" rev-constraint-dynamic="7.0" callerrev="7.0"/>
+				<caller organisation="org.ow2.asm" name="asm-tree" conf="compile, runtime" rev="7.0" rev-constraint-default="7.0" rev-constraint-dynamic="7.0" callerrev="7.0"/>
+				<caller organisation="org.pantsbuild" name="jarjar" conf="default, compile, runtime, master" rev="7.0" rev-constraint-default="7.0" rev-constraint-dynamic="7.0" callerrev="1.7.2"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="successful" details="" size="113676" time="1386" location="/home/knoldus/.ivy2/cache/org.ow2.asm/asm/jars/asm-7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant">
+			<revision name="1.9.9" status="release" pubdate="20170203001004" resolver="public" artresolver="public" homepage="http://ant.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="9625" time="1878" location="/home/knoldus/.ivy2/cache/org.apache.ant/ant/ivy-1.9.9.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.apache.ant/ant/ivy-1.9.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.9/ant-1.9.9.pom"/>
+				<caller organisation="org.pantsbuild" name="jarjar" conf="default, compile, runtime, master" rev="1.9.9" rev-constraint-default="1.9.9" rev-constraint-dynamic="1.9.9" callerrev="1.7.2"/>
+				<artifacts>
+					<artifact name="ant" type="jar" ext="jar" status="successful" details="" size="2047763" time="7551" location="/home/knoldus/.ivy2/cache/org.apache.ant/ant/jars/ant-1.9.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.9/ant-1.9.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant-launcher">
+			<revision name="1.9.9" status="release" pubdate="20170203001411" resolver="public" artresolver="public" homepage="http://ant.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2335" time="1397" location="/home/knoldus/.ivy2/cache/org.apache.ant/ant-launcher/ivy-1.9.9.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.apache.ant/ant-launcher/ivy-1.9.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.pom"/>
+				<caller organisation="org.apache.ant" name="ant" conf="compile, runtime" rev="1.9.9" rev-constraint-default="1.9.9" rev-constraint-dynamic="1.9.9" callerrev="1.9.9"/>
+				<artifacts>
+					<artifact name="ant-launcher" type="jar" ext="jar" status="successful" details="" size="18394" time="1250" location="/home/knoldus/.ivy2/cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.9.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.10">
+			<revision name="3.0.8" status="release" pubdate="20190610191037" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2236" time="2159" location="/home/knoldus/.ivy2/cache/org.scalactic/scalactic_2.10/ivy-3.0.8.xml" searched="true" original-local-location="/home/knoldus/.ivy2/cache/org.scalactic/scalactic_2.10/ivy-3.0.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.8/scalactic_2.10-3.0.8.pom"/>
+				<caller organisation="com.eed3si9n" name="sbt-assembly" conf="compile" rev="3.0.8" rev-constraint-default="3.0.8" rev-constraint-dynamic="3.0.8" callerrev="0.14.10"/>
+				<artifacts>
+					<artifact name="scalactic_2.10" type="bundle" ext="jar" status="successful" details="" size="739895" time="5865" location="/home/knoldus/.ivy2/cache/org.scalactic/scalactic_2.10/bundles/scalactic_2.10-3.0.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.8/scalactic_2.10-3.0.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.7" status="release" pubdate="20171104013708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.7/scala-reflect-2.10.7.pom"/>
+				<caller organisation="org.scalactic" name="scalactic_2.10" conf="default, compile, runtime, master" rev="2.10.7" rev-constraint-default="2.10.7" rev-constraint-dynamic="2.10.7" callerrev="3.0.8"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3227385" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.7.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20191022135539" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.0" status="integration" pubdate="20191022155143" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="akka-http-crud-build" conf="compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.jetbrains" name="sbt-idea-compiler-indices">
-			<revision name="0.1.3" status="release" pubdate="20190326152110" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
-				<metadata-artifact status="no" details="" size="2550" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-idea-compiler-indices/ivy-0.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-idea-compiler-indices/scala_2.10/sbt_0.13/0.1.3/ivys/ivy.xml"/>
-				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.0" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
-				<artifacts>
-					<artifact name="sbt-idea-compiler-indices" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6031" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-idea-compiler-indices/srcs/sbt-idea-compiler-indices-0.1.3-sources.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-idea-compiler-indices/scala_2.10/sbt_0.13/0.1.3/srcs/sbt-idea-compiler-indices-sources.jar"/>
-					</artifact>
-					<artifact name="sbt-idea-compiler-indices" type="jar" ext="jar" status="no" details="" size="81080" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-idea-compiler-indices/jars/sbt-idea-compiler-indices-0.1.3.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-idea-compiler-indices/scala_2.10/sbt_0.13/0.1.3/jars/sbt-idea-compiler-indices.jar"/>
-					</artifact>
-					<artifact name="sbt-idea-compiler-indices" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="421571" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-idea-compiler-indices/docs/sbt-idea-compiler-indices-0.1.3-javadoc.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-idea-compiler-indices/scala_2.10/sbt_0.13/0.1.3/docs/sbt-idea-compiler-indices-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="io.github.sugakandrey" name="scala-compiler-indices-protocol_2.10">
-			<revision name="0.1.1" status="release" pubdate="20190313184354" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/JetBrains/intellij-scala-indices-protocol" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
-				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2892" time="0" location="/home/knoldus/.ivy2/cache/io.github.sugakandrey/scala-compiler-indices-protocol_2.10/ivy-0.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/github/sugakandrey/scala-compiler-indices-protocol_2.10/0.1.1/scala-compiler-indices-protocol_2.10-0.1.1.pom"/>
-				<caller organisation="org.jetbrains" name="sbt-idea-compiler-indices" conf="compile" rev="0.1.1" rev-constraint-default="0.1.1" rev-constraint-dynamic="0.1.1" callerrev="0.1.3"/>
-				<artifacts>
-					<artifact name="scala-compiler-indices-protocol_2.10" type="jar" ext="jar" status="no" details="" size="108627" time="0" location="/home/knoldus/.ivy2/cache/io.github.sugakandrey/scala-compiler-indices-protocol_2.10/jars/scala-compiler-indices-protocol_2.10-0.1.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/github/sugakandrey/scala-compiler-indices-protocol_2.10/0.1.1/scala-compiler-indices-protocol_2.10-0.1.1.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="io.spray" name="spray-json_2.10">
-			<revision name="1.3.4" status="release" pubdate="20171024122312" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
-				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3081" time="0" location="/home/knoldus/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.4/spray-json_2.10-1.3.4.pom"/>
-				<caller organisation="io.github.sugakandrey" name="scala-compiler-indices-protocol_2.10" conf="default, compile, runtime, master" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="0.1.1"/>
-				<artifacts>
-					<artifact name="spray-json_2.10" type="bundle" ext="jar" status="no" details="" size="299378" time="0" location="/home/knoldus/.ivy2/cache/io.spray/spray-json_2.10/bundles/spray-json_2.10-1.3.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.4/spray-json_2.10-1.3.4.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.jetbrains" name="sbt-idea-shell">
-			<revision name="2018.3" status="release" pubdate="20181105205944" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
-				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="2425" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-idea-shell/ivy-2018.3.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-idea-shell/scala_2.10/sbt_0.13/2018.3/ivys/ivy.xml"/>
-				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="2018.3" rev-constraint-default="2018.3" rev-constraint-dynamic="2018.3" callerrev="0.0" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
-				<artifacts>
-					<artifact name="sbt-idea-shell" type="jar" ext="jar" status="no" details="" size="12845" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-idea-shell/jars/sbt-idea-shell-2018.3.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-idea-shell/scala_2.10/sbt_0.13/2018.3/jars/sbt-idea-shell.jar"/>
-					</artifact>
-					<artifact name="sbt-idea-shell" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="379932" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-idea-shell/docs/sbt-idea-shell-2018.3-javadoc.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-idea-shell/scala_2.10/sbt_0.13/2018.3/docs/sbt-idea-shell-javadoc.jar"/>
-					</artifact>
-					<artifact name="sbt-idea-shell" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2068" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-idea-shell/srcs/sbt-idea-shell-2018.3-sources.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-idea-shell/scala_2.10/sbt_0.13/2018.3/srcs/sbt-idea-shell-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.jetbrains" name="sbt-structure-extractor">
-			<revision name="2018.2.1+4-88400d3f" status="integration" pubdate="20180919230425" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
-				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="2070" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-structure-extractor/ivy-2018.2.1+4-88400d3f.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-structure-extractor/scala_2.10/sbt_0.13/2018.2.1+4-88400d3f/ivys/ivy.xml"/>
-				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="2018.2.1+4-88400d3f" rev-constraint-default="2018.2.1+4-88400d3f" rev-constraint-dynamic="2018.2.1+4-88400d3f" callerrev="0.0" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
-				<artifacts>
-					<artifact name="sbt-structure-extractor" type="jar" ext="jar" status="no" details="" size="708989" time="0" location="/home/knoldus/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-structure-extractor/jars/sbt-structure-extractor-2018.2.1+4-88400d3f.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-structure-extractor/scala_2.10/sbt_0.13/2018.2.1+4-88400d3f/jars/sbt-structure-extractor.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.10.7" status="release" pubdate="20171104013659" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+			<revision name="2.10.7" status="release" pubdate="20171104013659" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.7/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
 				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.7/scala-library-2.10.7.pom"/>
-				<caller organisation="io.spray" name="spray-json_2.10" conf="compile, runtime" rev="2.10.7" rev-constraint-default="2.10.7" rev-constraint-dynamic="2.10.7" callerrev="1.3.4"/>
-				<caller organisation="io.github.sugakandrey" name="scala-compiler-indices-protocol_2.10" conf="default, compile, runtime, master" rev="2.10.7" rev-constraint-default="2.10.7" rev-constraint-dynamic="2.10.7" callerrev="0.1.1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.7" rev-constraint-default="2.10.7" rev-constraint-dynamic="2.10.7" callerrev="2.10.7"/>
+				<caller organisation="org.scalactic" name="scalactic_2.10" conf="default, compile, runtime, master" rev="2.10.7" rev-constraint-default="2.10.7" rev-constraint-dynamic="2.10.7" callerrev="3.0.8"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132588" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.7.jar">
 						<origin-location is-local="false" location="UNKNOWN"/>

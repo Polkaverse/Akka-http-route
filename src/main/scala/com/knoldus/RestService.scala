@@ -27,7 +27,8 @@ trait RestService {
   val route =
     path("read") {
       get {
-        complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, userImpl.returnMysqlData))
+        //complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, userImpl.returnMysqlData))
+        complete("Route hit Successfully...")
       }
     } ~
     post {
